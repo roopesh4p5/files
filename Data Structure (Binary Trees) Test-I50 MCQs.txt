@@ -1,0 +1,153 @@
+1: How many edges are present in path cluster?
+Ans.2
+
+2: How many edges does a leaf cluster contain?
+Ans. 0
+
+3: How many edges are present in Edge cluster?
+Ans.1
+
+4: Which data structure is used to maintain a dynamic forest using a link or cut operation?
+Ans. Top Tree
+
+5: What is the time complexity for the initialization of top tree?
+Ans.O (n)
+
+6: How many top trees are there in a tree with single vertex?
+Ans.0
+
+7: Which property makes top tree a binary tree?
+Ans.  Nodes as Cluster ,Leaves as Edges ,Root is Tree Itself
+
+8: Which of the dynamic operations are used in Top Tree data structure implementation?
+Ans.Link
+Cut
+Expose
+
+9: Which of the following are used as an internal operation in Top tree?
+Ans.Merge
+
+10: What is the time complexity for maintaining a dynamic set of weighted trees?
+Ans.O (log n)
+
+11: What are splay trees?
+Ans.self adjusting binary search trees
+
+12: Which of the following property of splay tree is correct?
+Ans.any sequence of j operations starting from an empty tree with h nodes atmost, takes O(jlogh) time complexity
+
+13: Why to prefer splay trees?
+Ans. easier to program and faster access to recently accessed items
+
+14: What is the load factor for an open addressing technique?
+Ans.0.5
+
+15: What is a splay operation?
+Ans.moving a node to root
+
+16: Which of the following options is an application of splay trees?
+Ans. cache Implementation
+
+17: When we have red-black trees and AVL trees that can perform most of operations in logarithmic times, then what is the need for splay trees?
+Ans. In real time it is estimated that 80% access is only to 20% data, hence most used ones must be easily available
+
+18: What is the disadvantage of using splay trees?
+Ans. height of a splay tree can be linear when accessing elements in non decreasing order.
+
+19: What is the space complexity of a treap algorithm?
+Ans. O(N)
+
+20: Which is the simplest of all binary search trees?
+Ans. Treap
+
+21: What is the reason behind the simplicity of a treap?
+Ans.Each node has a fixed priority field
+
+22: What is the condition for priority of a node in a treap?
+Ans. a node's priority should be at least as large as its parent
+
+23: What is the average running time of a treap?
+Ans.O(log N)
+
+24: Which node has the lowest priority in a treap?
+Ans. root node
+
+25: What is the priority of a null node?
+Ans. infinity
+
+26: Who invented treaps?
+Ans. Cecilia and Raimund
+
+27: What is a threaded binary tree traversal?
+Ans.a binary tree traversal without using stacks and queues
+
+28: What are the disadvantages of normal binary tree traversals?
+Ans.there are many pointers which are null and thus useless
+
+29: In general, the node content in a threaded binary tree is ________
+Ans.leftchild_pointer, left_tag, data, right_tag, rightchild_pointer
+
+30: What are null nodes filled with in a threaded binary tree?
+Ans. inorder predecessor for left node and inorder successor for right node information
+
+31: Which of the following tree traversals work if the null left pointer pointing to the predecessor and null right pointer pointing to the successor in a binary tree?
+Ans. inorder, postorder, preorder traversals
+
+32: What are double and single threaded trees?
+Ans.when both left, right nodes are having null pointers and only right node is null pointer respectively
+
+33: Who developed the concept of tango tree?
+Ans.Erik Demaine
+Mihai Patrascu
+John Lacono
+
+34: Which type of tree is tango tree?
+Ans.Binary Search Tree
+
+35: After which city is tango tree named?
+Ans.Buenos Aires
+
+36: Which type of binary search tree or algorithm does tango tree use?
+Ans. Online
+
+37: What is the time complexity of for achieving competitive ratio by tango tree?
+Ans.O (log (log n))
+
+38: Which type of binary search tree is imitated for construction of tango tree?
+Ans.Complete Binary Search Tree
+
+39: Which special balanced binary search tree is used to store the nodes of auxiliary tree?
+Ans.Red - Black Tree
+
+40: Which operation is used to combine two auxiliary trees?
+Ans.Join
+
+41: Which operation is used to break a preferred path into two sets of parts at a particular node?
+Ans.Cut
+
+42: What is the upper bound for a tango tree if k is a number of interleaves?
+Ans.k+1 O (log (log n))
+
+43: What is the time complexity for searching k+1 auxiliary trees?
+Ans.k+1 O (log (log n))
+
+44: What is the time complexity for the update cost on auxiliary trees?
+Ans.k+1 O (log (log n))
+
+45: Which of the following is the self-adjusting binary search tree?
+Ans.Splay Tree
+
+46: Which of the following is also known as Rope data structure?
+Ans. Cord
+
+47: Which type of data structure does rope represent?
+Ans. Binary Tree
+
+48: What is the time complexity for finding the node at x position where n is the length of the rope?
+Ans.O (log n)
+
+49: What is the time complexity for creating a new node and then performing concatenation in the rope data structure?
+Ans.O (1)
+
+50: What is the time complexity for splitting the string into two new string in the rope data structure?
+Ans.O (log n)

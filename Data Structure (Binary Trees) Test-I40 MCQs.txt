@@ -1,0 +1,134 @@
+1: AA Trees are implemented using?
+Ans. Levels
+
+2: Which of the following is the correct definition for a horizontal link?
+Ans.connection between node and a child of equal levels
+
+3: How will you remove a left horizontal link in an AA-tree?
+Ans. by performing right rotation
+
+4: What are the two different operations done in an AA-Tree?
+Ans. skew and split
+
+5: How many different shapes does maintenance of AA-Tree need to consider?
+Ans.2
+
+6: What is the prime condition of AA-tree which makes it simpler than a red-black tree?
+Ans. Only right children can be red
+
+7: Which of the following trees is similar to that of an AA-Tree?
+Ans. Red-Black Tree
+
+8: What is the worst case analysis of an AA-Tree?
+Ans.O(log N)
+
+9: Who is the inventor of AA-Tree?
+Ans. Arne Anderson
+
+10: What should be the condition for the level of a left node?
+Ans. It should be strictly less than that of its parent
+
+11: Of the following rules that are followed by an AA-tree, which of the following is incorrect?
+1- Only right children can be red
+2- Procedures are coded recursively
+3- Instead of storing colors, the level of a node is stored
+4- There should not be any left children
+Ans.4
+
+12: What is an AVL tree?
+Ans. a tree which is balanced and is a height balanced tree
+
+13: Why we need to a binary tree which is height balanced?
+Ans.to avoid formation of skew trees
+
+14: What is the maximum height of an AVL tree with p nodes?
+Ans. log(p)
+
+15: Given an empty AVL tree, how would you construct AVL tree when a set of numbers are given without performing any rotations?
+Ans.find the median of the set of elements given, make it as root and construct the tree
+
+16: What maximum difference in heights between the leafs of a AVL tree is possible?
+Ans. log(n) where n is the number of nodes
+
+17: Why to prefer red-black trees over AVL trees?
+Ans. AVL tree store balance factor in every node which costs space
+
+18: What is a Cartesian tree?
+Ans. a tree which obeys heap property and whose inorder traversal yields the given sequence
+
+19: Which of the below statements are true?
+i. Cartesian tree is not a height balanced tree
+ii. Cartesian tree of a sequence of unique numbers can be unique generated
+Ans. both statements are true
+
+20: What is the speciality of cartesian sorting?
+Ans. it sorts partially sorted set of data quickly
+
+21: Consider a sequence of numbers to have repetitions, how a cartesian tree can be constructed in such situations without violating any rules?
+Ans.use any tie-breaking rule between repeated elements
+
+22: What happens if we apply the below operations on an input sequence?
+i. construct a cartesian tree for input sequence
+ii. put the root element of above tree in a priority queue
+iii. if( priority queue is not empty) then
+iv. search and delete minimum value in priority queue
+v. add that to output
+vi. add cartesian tree children of above node to priority queue
+Ans.sorts the input sequence
+
+23: Cartesian trees are most suitable for?
+Ans.minimum range query and lowest common ancestors
+
+24: A treap is a cartesian tree with ___________
+Ans.additional value, which is a priority value to the key generated randomly
+
+25: What is a weight balanced tree?
+Ans.A binary tree that stores the sizes of subtrees in nodes
+
+26: What are the applications of weight balanced tree?
+Ans. dynamic sets, dictionaries, sequences, maps
+
+27: A node of the weight balanced tree has
+Ans.key, left and right pointers, size
+
+28: Size of an And Inverter Graph is the number of _______ gates and the number of logic levels is number of ________ gates on the __________ path from a primary input to a primary output.
+Ans. AND, AND, longest
+
+29: What is the condition for a tree to be weight balanced. where a is factor and n is a node?
+Ans. weight[n.left] >= a*weight[n] and weight[n.right] >= a*weight[n].
+
+30: What are the operations that can be performed on weight balanced tree?
+Ans.all basic operations and set intersection, set union and subset test
+
+31: Consider a weight balanced tree such that, the number of nodes in the left sub tree is at least half and at most twice the number of nodes in the right sub tree. The maximum possible height (number of nodes on the path from the root to the farthest leaf) of such a tree on k nodes can be described as
+Ans. log3/2 n
+
+32: What does the below definations convey?
+i. A binary tree is balanced if for every node it is gonna hold that the number of inner nodes in the left subtree and the number of inner nodes in the right subtree differ by at most 1.
+ii. A binary tree is balanced if for any two leaves the difference of the depth is at most 1.
+Ans.weight balanced and height balanced tree definations
+
+33: What are the operations that could be performed in O(logn) time complexity by red-black tree?
+Ans.insertion, deletion, finding predecessor, successor
+
+34: Which of the following is an application of Red-black trees and why?
+Ans.can be used in process schedulers, maps, sets
+
+35: When it would be optimal to prefer Red-black trees over AVL trees?
+Ans. when there are more insertions or deletions
+
+36: Why Red-black trees are preferred over hash tables though hash tables have constant time complexity?
+Ans. because of resizing issues of hash table and better ordering in redblack trees
+
+37: How can you save memory when storing color information in Red-Black tree?
+Ans.using least significant bit of one of the pointers in the node for color information
+
+38: When to choose Red-Black tree, AVL tree and B-trees?
+Ans. many inserts, many searches and when managing more items respectively
+
+39: Which algorithm is used in the top tree data structure?
+Ans.Divide and Conquer
+
+40: For how many vertices in a set, is top tree defined for underlying tree?
+Ans. 2
+

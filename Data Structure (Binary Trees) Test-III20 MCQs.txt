@@ -1,0 +1,59 @@
+1: In a binary search tree, which of the following traversals would print the numbers in the ascending order?
+Ans. In-order traversal
+
+2: The number of edges from the root to the node is called __________ of the tree.
+Ans.Depth
+
+3: The number of edges from the node to the deepest leaf is called _________ of the tree.
+Ans. Height
+
+4: What is a full binary tree?
+Ans.Each node has exactly zero or two children
+
+5: What is a complete binary tree?
+Ans. A binary tree, which is completely filled, with the possible exception of the bottom level, which is filled from left to right
+
+6: What is the average case time complexity for finding the height of the binary tree?
+Ans.h = O(log n)
+
+7: Which of the following is not an advantage of trees?
+Ans. Undo/Redo operations in a notepad
+
+8: In a full binary tree if number of internal nodes is I, then number of leaves L are?
+Ans. L = I + 1
+
+9: In a full binary tree if number of internal nodes is I, then number of nodes N are?
+Ans. N = 2*I + 1
+
+10: In a full binary tree if there are L leaves, then total number of nodes N are?
+Ans. N = 2*L - 1
+
+11: Which of the following is incorrect with respect to binary trees?
+Ans.Let T be a binary tree with N nodes. Then the number of levels is at least floor(log (N + 1))
+
+12: Which of the following is false about a binary search tree?
+Ans. In order sequence gives decreasing order of elements
+
+13: What is the speciality about the inorder traversal of a binary search tree?
+Ans. It traverses in an increasing order
+
+14: What are the worst case and average case complexities of a binary search tree?
+Ans. O(n), O(logn)
+
+15: What are the conditions for an optimal binary search tree and what is its advantage?
+Ans. The tree should not be modified and you should know how often the keys are accessed, it improves the lookup cost
+
+16: What will be the height of a balanced full binary tree with 8 leaves?
+Ans.4
+
+17: The balance factor of a node in a binary tree is defined as _____
+Ans. height of left subtree minus height of right subtree
+
+18: A binary tree is balanced if the difference between left and right subtree of every node is not more than ____
+Ans.1
+
+19: Which of the following tree data structures is not a balanced binary tree?
+Ans.B-tree
+
+20: Balanced binary tree with n items allows the lookup of an item in ____ worst-case time.
+Ans.O(log n)

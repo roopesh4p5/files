@@ -1,0 +1,59 @@
+1: A linear list of elements in which deletion can be done from one end (front) and insertion can take place only at the other end (rear) is known as _____________
+Ans.Queue
+
+2: The data structure required for Breadth First Traversal on a graph is?
+Ans. Queue
+
+3: A queue follows __________
+Ans.FIFO (First In First Out) principle
+
+4: Circular Queue is also known as ________
+Ans. Ring Buffer
+
+5: If the elements "A", "B", "C" and "D" are placed in a queue and are deleted one at a time, in what order will they be removed?
+Ans.ABCD
+
+6: A data structure in which elements can be inserted or deleted at/from both ends but not in the middle is?
+Ans.Dequeue
+
+7: A normal queue, if implemented using an array of size MAX_SIZE, gets full when?
+Ans.Rear = MAX_SIZE - 1
+
+8: Queues serve major role in ______________
+Ans. Simulation of limited resource allocation
+
+9: Which of the following is not the type of queue?
+Ans Single ended queue
+
+10: Which of the following properties is associated with a queue?
+Ans. First In First Out
+
+11: In a circular queue, how do you increment the rear end of the queue?
+Ans. (rear+1) % CAPACITY
+
+12: What is the term for inserting into a full queue known as?
+Ans.overflow
+
+13: What is the time complexity of enqueue operation?
+Ans. O(1)
+
+14: In linked list implementation of queue, if only front pointer is maintained, which of the following operation take worst case linear time?
+Ans Both Insertion and To empty a queue
+
+15: In linked list implementation of a queue, where does a new element be inserted?
+Ans. At the tail of the link list
+
+16: In linked list implementation of a queue, front and rear pointers are tracked. Which of these pointers will change during an insertion into a NONEMPTY queue?
+Ans.Only rear pointer
+
+17: In linked list implementation of a queue, front and rear pointers are tracked. Which of these pointers will change during an insertion into EMPTY queue?
+Ans. Both front and rear pointer
+
+18: In case of insertion into a linked queue, a node borrowed from the __________ list is inserted in the queue.
+Ans. AVAIL
+
+19: In linked list implementation of a queue, from where is the item deleted?
+Ans At the head of link list
+
+20: In linked list implementation of a queue, the important condition for a queue to be empty is?
+Ans.FRONT is null

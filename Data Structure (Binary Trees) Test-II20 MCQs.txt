@@ -1,0 +1,62 @@
+1: The average depth of a binary tree is given as?
+Ans. O(?N)
+
+2: How many orders of traversal are applicable to a binary tree (In General)?
+Ans. 3
+
+3: If binary trees are represented in arrays, what formula can be used to locate a left child, if the node has an index i?
+Ans.2i+1
+
+4: Using what formula can a parent node be located in an array?
+Ans. (i-1)/2
+
+5: Which of the following properties are obeyed by all three tree - traversals?
+Ans.Left subtrees are visited before right subtrees
+
+6: What is the time complexity of pre-order traversal in the iterative fashion?
+Ans. O(n)
+
+7: What is the space complexity of the post-order traversal in the recursive fashion? (d is the tree depth and n is the number of nodes)
+Ans.O(d)
+
+8: To obtain a prefix expression, which of the tree traversals is used?
+Ans.Pre-order traversal
+
+9: Consider the following data. The pre order traversal of a binary tree is A, B, E, C, D. The in order traversal of the same binary tree is B, E, A, D, C. The level order sequence for the binary tree is _________
+Ans. A, B, C, E, D
+
+10: Consider the following data and specify which one is Preorder Traversal Sequence, Inorder and Postorder sequences.
+S1: N, M, P, O, Q
+S2: N, P, Q, O, M
+S3: M, N, O, P, Q
+Ans. S1 is inorder, S2 is postorder and S3 is preorder
+
+11: What is the possible number of binary trees that can be created with 3 nodes, giving the sequence N, M, L when traversed in post-order.
+Ans. 5
+
+12: The post-order traversal of a binary tree is O P Q R S T. Then possible pre-order traversal will be ________
+Ans. T Q O P S R
+
+13: A binary search tree contains values 7, 8, 13, 26, 35, 40, 70, 75. Which one of the following is a valid post-order sequence of the tree provided the pre-order sequence as 35, 13, 7, 8, 26, 70, 40 and 75?
+Ans.8, 7, 26, 13, 40, 75, 70, 35
+
+14: Which of the following pair's traversals on a binary tree can build the tree uniquely?
+Ans.post-order and in-order
+
+15: A full binary tree can be generated using ______
+Ans. post-order and pre-order traversal
+
+16: The maximum number of nodes in a tree for which post-order and pre-order traversals may be equal is ______
+Ans.1
+
+17: The pre-order and in-order are traversals of a binary tree are T M L N P O Q and L M N T O P Q. Which of following is post-order traversal of the tree?
+Ans. L N M O Q P T
+
+18: What is the space complexity of the in-order traversal in the recursive fashion? (d is the tree depth and n is the number of nodes)
+Ans. O(d)
+
+19: What is the time complexity of level order traversal?
+Ans. O(n)
+
+20: Which of the following graph traversals closely imitates level order traversal of a binary tree?
+Ans. Breadth First Search

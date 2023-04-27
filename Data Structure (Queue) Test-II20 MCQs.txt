@@ -1,0 +1,73 @@
+1: The essential condition which is checked before insertion in a linked queue is?
+Ans.Overflow
+
+2: The essential condition which is checked before deletion in a linked queue is?
+Ans.Underflow
+
+3: Which of the following is true about linked list implementation of queue?
+Ans. In push operation, if new nodes are inserted at the beginning of linked list, then in pop operation, nodes must be removed from end
+
+4: With what data structure can a priority queue be implemented?
+Ans.Tree
+
+5: Which of the following is not an application of priority queue?
+Ans.Undo operation in text editors
+
+6: What is the time complexity to insert a node based on key in a priority queue?
+Ans. O(n)
+
+7: What is not a disadvantage of priority scheduling in operating systems?
+Ans. Interrupt handling
+
+8: Which of the following is not an advantage of a priority queue?
+Ans. Easy to delete elements in any case
+
+9: What is the time complexity to insert a node based on position in a priority queue?
+Ans.O(n)
+
+10: What is a dequeue?
+Ans. A queue with insert/delete defined for both front and rear ends of the queue
+
+11: A Double-ended queue supports operations such as adding and removing items from both the sides of the queue. They support four operations like addFront(adding item to top of the queue), addRear(adding item to the bottom of the queue), removeFront(removing item from the top of the queue) and removeRear(removing item from the bottom of the queue). You are given only stacks to implement this data structure. You can implement only push and pop operations. What are the total number of stacks required for this operation?(you can reuse the stack)
+Ans. 2
+
+12: You are asked to perform a queue operation using a stack. Assume the size of the stack is some value 'n' and there are 'm' number of variables in this stack. The time complexity of performing deQueue operation is (Using only stack operations like push and pop)(Tightly bound).
+Ans. O(m)
+
+13: Consider you have an array of some random size. You need to perform dequeue operation. You can perform it using stack operation (push and pop) or using queue operations itself (enQueue and Dequeue). The output is guaranteed to be same. Find some differences?
+Ans.They will have different time complexities
+
+14: Consider you have a stack whose elements in it are as follows.
+5 4 3 2 << top
+Where the top element is 2.
+You need to get the following stack
+6 5 4 3 2 << top
+The operations that needed to be performed are (You can perform only push and pop):
+Ans.Push(pop()), push(6), push(pop())
+
+15: A double-ended queue supports operations like adding and removing items from both the sides of the queue. They support four operations like addFront(adding item to top of the queue), addRear(adding item to the bottom of the queue), removeFront(removing item from the top of the queue) and removeRear(removing item from the bottom of the queue). You are given only stacks to implement this data structure. You can implement only push and pop operations. What's the time complexity of performing addFront and addRear? (Assume 'm' to be the size of the stack and 'n' to be the number of elements)
+Ans. O(1) and O(n)
+
+16: Why is implementation of stack operations on queues not feasible for a large dataset (Asssume the number of elements in the stack to be n)?
+Ans.Because of its time complexity O(n)
+
+17: Consider yourself to be in a planet where the computational power of chips to be slow. You have an array of size 10.You want to perform enqueue some element into this array. But you can perform only push and pop operations .Push and pop operation both take 1 sec respectively. The total time required to perform enQueue operation is?
+Ans. 43
+
+18: You have two jars, one jar which has 10 rings and the other has none. They are placed one above the other. You want to remove the last ring in the jar. And the second jar is weak and cannot be used to store rings for a long time.
+Ans. Empty the first jar by removing it one by one from the first jar and placing it into the second jar and empty the second jar by placing all the rings into the first jar one by one
+
+19: Given only a single array of size 10 and no other memory is available. Which of the following operation is not feasible to implement (Given only push and pop operation)?
+Ans. Enqueue
+
+20: Given an array of size n, let's assume an element is 'touched' if and only if some operation is performed on it(for example, for performing a pop operation the top element is 'touched'). Now you need to perform Dequeue operation. Each element in the array is touched atleast?
+Ans.Four times
+
+
+
+
+
+
+
+
+

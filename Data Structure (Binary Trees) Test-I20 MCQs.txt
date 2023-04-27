@@ -1,0 +1,64 @@
+1: How many children does a binary tree have?
+Ans.0 or 1 or 2
+
+2: What is/are the disadvantages of implementing tree using normal arrays?
+Ans. have to know the maximum number of nodes possible before creation of trees
+
+3: What must be the ideal size of array if the height of tree is 'l'?
+Ans.2l-1
+
+4: What are the children for node 'w' of a complete-binary tree in an array representation?
+Ans. 2w and 2w+1
+
+5: What is the parent for a node 'w' of a complete binary tree in an array representation when w is not 0?
+Ans. floor(w-1/2)
+
+6: If the tree is not a complete binary tree then what changes can be made for easy access of children of a node in the array?
+Ans.every node stores data saying which of its children exist in the array
+
+7: Consider a situation of writing a binary tree into a file with memory storage efficiency in mind, is array representation of tree is good?
+Ans.No it is not efficient in case of sparse trees and remaining cases it is fine
+
+8: Can a tree stored in an array using either one of inorder or post order or pre order traversals be again reformed?
+Ans. No we need one more traversal to form a tree
+
+9: Advantages of linked list representation of binary trees over arrays?
+Ans.both dynamic size and ease in insertion/deletion
+
+10: Disadvantages of linked list representation of binary trees over arrays?
+Ans. Random access is not possible and extra memory with every element
+
+11: Which of the following traversing algorithm is not used to traverse in a tree?
+Ans.Randomized
+
+12: Level order traversal of a tree is formed with the help of
+Ans. breadth first search
+
+13: Identify the reason which doesn't play a key role to use threaded binary trees?
+Ans.They occupy less size
+
+
+14: The following lines talks about deleting a node in a binary tree.(the tree property must not be violated after deletion)
+i) from root search for the node to be deleted
+ii)
+iii) delete the node at
+what must be statement ii) and fill up statement iii)
+Ans.ii)-find deepest node,replace with node to be deleted. iii)- delete the deepest node
+
+15: What may be the psuedo code for finding the size of a tree?
+Ans. find_size(root_node->left_node) + 1 + find_size(root_node->right_node)
+
+16: What is the maximum number of children that a binary tree node can have?
+Ans.2
+
+17: How many common operations are performed in a binary tree?
+Ans.3
+
+18: What is the traversal strategy used in the binary tree?
+Ans. breadth-first traversal
+
+19: How many types of insertion are performed in a binary tree?
+Ans.2
+
+20: How many bits would a succinct binary tree occupy?
+Ans. 2n+O(n)             
